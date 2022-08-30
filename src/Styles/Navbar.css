@@ -4,7 +4,7 @@
     flex:1 ;
     align-items:center;
     display:flex;
-    gap:3rem;
+    gap:6rem;
     padding:1rem;
     height:3rem;
     margin-left:2rem;
@@ -13,13 +13,14 @@
 .NavbarWrapper{
     color:rgba(255, 255, 255, 0.96);
 height:10rem;
-    background-color: #323232;
+ /* background-color: #323232; */
+ background :conic-gradient(  #323232 0deg 100deg, black 140deg 360deg);
 height : 6rem;
 display:flex;
 flex-direction:row;
 justify-content: center;
 font-weight: bold;
-
+background: linear-gradient(90deg, rgba(6,0,0,1) 39%, rgba(2,36,0,0.919502835313813) 49%, rgb(17, 154, 58) 72%, #13FF00 100%);
 }
 /* 
 .leftNavbar{
@@ -109,4 +110,9 @@ font-size:1.5rem;
     } */
 
 
+
+.navbarFront{
+
+    font-size:1.2rem;
+}
 

@@ -20,6 +20,7 @@
 }
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://css.gg/software-download.css');
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -43,3 +44,5 @@
     transform: rotate(360deg);
   }
 }
+
+
