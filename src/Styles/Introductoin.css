@@ -69,16 +69,16 @@
 
 .resumeImage{
   position: relative;
-  top: -31rem;
-  left: -31rem;
+  top: -22rem;
+  left: -1rem;
   height: 3rem;
   }
 
   .CVtext{
 
     position: relative;
-    top: -31rem;
-    left: -31rem;
+    top: -22rem;
+    left: -1rem;
     height: 3rem;
     color: white;
   }
@@ -100,4 +100,21 @@
     position: absolute;
     left: 39.5rem;
     width: 58.5%;
+  }
+
+  .leetcode{
+
+    height: 3rem;
+    position: relative;
+    top: -37rem;
+    left: -29rem;
+  }
+
+  .leetcodeText{
+
+    position: relative;
+    top: -22rem;
+    left: -1rem;
+    height: 3rem;
+    color: white;
   }
