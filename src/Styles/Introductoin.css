@@ -20,13 +20,7 @@
     left: -19rem;
     font-size:1rem;
    text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #34dd97 0%,
-    #1cb5b2 29%,
-    #ff1361 67%,
-    #00ff33 80%
-  );
+   background-image: linear-gradient( -225deg, #1e6020 10%, #5ae262 79%, #00ff51 67%, #02ff35 100% );
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
@@ -74,8 +68,36 @@
 }
 
 .resumeImage{
+  position: relative;
+  top: -31rem;
+  left: -31rem;
+  height: 3rem;
+  }
+
+  .CVtext{
+
     position: relative;
-    top: -28rem;
-    left: -30rem;
-    height:3rem;
+    top: -31rem;
+    left: -31rem;
+    height: 3rem;
+    color: white;
+  }
+
+  .fullDivWrapper{
+
+    display:flex;
+    flex-direction:row;
+  }
+
+  .rightPart{
+
+    clip-path: polygon(0 0, 100% 600%, 100% 0);
+    height: 40rem;
+    width: 60%;
+    height: 40rem;
+    width: 100%;
+    background-color: rgba(63,63,63,1);
+    position: absolute;
+    left: 39.5rem;
+    width: 58.5%;
   }

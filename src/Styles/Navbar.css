@@ -20,8 +20,7 @@ display:flex;
 flex-direction:row;
 justify-content: center;
 font-weight: bold;
-background: linear-gradient(90deg, rgba(6,0,0,1) 39%, rgba(2,36,0,0.919502835313813) 49%, rgb(17, 154, 58) 72%, #13FF00 100%);
-}
+background: linear-gradient(90deg, rgba(6,0,0,1) 41.5%, rgba(0,0,0,0.9139005944174545) 34%, rgba(63,63,63,1) 50%, rgba(63,63,63,1) 100%);}
 /* 
 .leftNavbar{
 
