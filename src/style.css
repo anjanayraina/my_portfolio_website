@@ -741,3 +741,13 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+
+.my-image{
+
+  height: 5rem !important;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 5rem;
+  margin-top: -1rem;
+}

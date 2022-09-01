@@ -7,6 +7,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
+import myImage from "../Assets/myImage.png";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -38,8 +39,12 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+        <Navbar.Brand  className="d-flex">
+        <img src ={myImage} className = "my-image"/>
+        <h1 className="heading-name">
+                
+                <strong className="main-name">AR</strong>
+              </h1>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
