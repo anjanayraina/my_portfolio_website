@@ -38,6 +38,24 @@ function Leetcode() {
        <h1 className="project-heading">
           Total Questions Solved : <strong className="purple">{" "}{items.totalSolved}</strong> 
         </h1>
+        <br/>
+<br/>
+      <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <h2>Easy </h2>
+        <div className = "rectangle-easy"></div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <h2>Medium </h2>
+        <div className = "rectangle-medium"></div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <h2>Hard </h2>
+        <div className = "rectangle-hard"></div>
+      </Col>
+<br/>
+<br/>
+      </Row> 
         <PieChart
   data={[
 

@@ -765,3 +765,24 @@ button:focus {
   border-radius: 100%;
   overflow: hidden;
 }
+
+.rectangle-easy{
+
+  width:13rem;
+  height:1rem;
+  background-color:#b284be;
+}
+
+.rectangle-medium{
+
+  width:13rem;
+  height:1rem;
+  background-color:#8a2be2;
+}
+
+.rectangle-hard{
+
+  width:13rem;
+  height:1rem;
+  background-color:#551a8b;
+}
