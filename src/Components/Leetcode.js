@@ -1,13 +1,11 @@
 import {React , useState , useEffect} from 'react'
-
+import { Container, Row, Col } from "react-bootstrap";
+import { PieChart } from 'react-minimal-pie-chart';
 function Leetcode() {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [items, setItems] = useState([]);
 
-  // Note: the empty deps array [] means
-  // this useEffect will run once
-  // similar to componentDidMount()
   useEffect(() => {
     fetch("https://leetcode-stats-api.herokuapp.com/anjanayraina")
       .then(res => res.json())
@@ -16,9 +14,7 @@ function Leetcode() {
           setIsLoaded(true);
           setItems(result);
         },
-        // Note: it's important to handle errors here
-        // instead of a catch() block so that we don't swallow
-        // exceptions from actual bugs in components.
+    
         (error) => {
           setIsLoaded(true);
           setError(error);
@@ -33,11 +29,30 @@ function Leetcode() {
   } else {
 
     console.log(items.totalSolved);
+ 
     return (
-      <ul>
-        {items.totalSolved}
+      <Container>
+        <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+        My  <strong className="purple">Leetcode Profile</strong>
+      </h1>
+       <h1 className="project-heading">
+          Total Questions Solved : <strong className="purple">{" "}{items.totalSolved}</strong> 
+        </h1>
+        <PieChart
+  data={[
+
+    {title : "Easy" , value : items.easySolved ,color: '#E38627'} ,
+    {title : "Medium" , value : items.mediumSolved ,color: '#C13C37'} ,
+    {title : "Hard" , value : items.hardSolved ,color: '#FFFFFF'} 
+  ] 
+  }
+  radius = {20} animation  animationDuration={500}
+   animationEasing="ease-out"
+   center={[50,25]}
+/>;
+        
         {/* {Console.log(items.totalSolved)} */}
-      </ul>
+      </Container>
     );
   }
 }
