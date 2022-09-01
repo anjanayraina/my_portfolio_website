@@ -41,9 +41,9 @@ function Leetcode() {
         <PieChart
   data={[
 
-    {title : "Easy" , value : items.easySolved ,color: '#E38627'} ,
-    {title : "Medium" , value : items.mediumSolved ,color: '#C13C37'} ,
-    {title : "Hard" , value : items.hardSolved ,color: '#FFFFFF'} 
+    {title : "Easy" , value : items.easySolved ,color: '#b284be'} ,
+    {title : "Medium" , value : items.mediumSolved ,color: '#8a2be2'} ,
+    {title : "Hard" , value : items.hardSolved ,color: '#551a8b'} 
   ] 
   }
   radius = {20} animation  animationDuration={500}
