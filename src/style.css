@@ -282,6 +282,7 @@ button:focus {
 
 .main-name {
   color: #8C45FF;
+  font-size: 4rem;
 }
 
 .Typewriter__wrapper {
@@ -749,5 +750,11 @@ button:focus {
   border-radius: 100%;
   overflow: hidden;
   width: 5rem;
-  margin-top: -1rem;
+  margin-top: 0rem;
+}
+
+.img-fluid{
+
+  border-radius: 100%;
+  overflow: hidden;
 }
