@@ -48,6 +48,14 @@ function Particle() {
         },
         retina_detect: true,
       }}
+
+      options={{
+                background: {
+                    color: {
+                        value: "#000000",
+                    },
+                }}
+      }
     />
   );
 }

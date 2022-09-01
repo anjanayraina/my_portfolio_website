@@ -43,18 +43,21 @@ function Leetcode() {
       <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <h2>Easy </h2>
+        <h2>{items.easySolved}</h2>
         <div className = "rectangle-easy"></div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <h2>Medium </h2>
+        <h2>{items.mediumSolved }</h2>
         <div className = "rectangle-medium"></div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <h2>Hard </h2>
+        <h2>{items.hardSolved}</h2>
         <div className = "rectangle-hard"></div>
       </Col>
 <br/>
-<br/>
+
       </Row> 
         <PieChart
   data={[
