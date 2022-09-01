@@ -6,25 +6,37 @@ import {
   SiPostman,
   SiHeroku,
   SiVercel,
+  SiAndroidstudio,
+  SiGooglecolab,
+  SiWeb3Dotjs,
 } from "react-icons/si";
 
+import {
+  FaEthereum,
+
+} from "react-icons/fa";
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+        <SiAndroidstudio />
+        <h2>Android Studio</h2>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
+        <h2>VS Code</h2>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <FaEthereum />
+        <h2>Ethereum Blockchain</h2>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiGooglecolab />
+        <h2>Google Colab</h2>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <SiWeb3Dotjs />
+        <h2>Web3.js</h2>
       </Col>
     </Row>
   );
