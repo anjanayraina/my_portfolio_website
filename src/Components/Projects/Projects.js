@@ -10,6 +10,8 @@ import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
+
+  let projectArray  = [{isBlog : false , tiitle : "Whatsapp Clone " , description : ""}];
   return (
     <Container fluid className="project-section">
       <Particle />

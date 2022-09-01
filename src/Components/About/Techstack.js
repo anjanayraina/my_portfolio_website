@@ -8,45 +8,69 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  DiJava,
+  DiAndroid,
 } from "react-icons/di";
 import {
   SiPytorch,
   SiFirebase,
   SiNextdotjs,
+  SiSolidity,
+  SiTensorflow,
 } from "react-icons/si";
 
+
+import {
+
+  FaJava,
+  FaReact,
+  FaGithubSquare,
+}
+from "react-icons/fa";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <FaJava />
+        <h2 >Java</h2>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSolidity />
+        <h2>Solidity</h2>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAndroid />
+        <h2>Android</h2>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+        <h2>Javascript</h2>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
+     
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
+        <h2>React</h2>
       </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiTensorflow />
+        <h2>TensorFlow</h2>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+        <h2>Git</h2>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
+        <h2>Firebase</h2>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+        <h2>Python</h2>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <FaGithubSquare />
+        <h2>Github</h2>
       </Col>
     </Row>
   );
