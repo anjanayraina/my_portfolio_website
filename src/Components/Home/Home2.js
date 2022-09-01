@@ -38,6 +38,9 @@ function Home2() {
               </i>
               <br />
               <br />
+              <i>
+  Apart from that i love problem solving as well , I have solved 800+ problems on various Platforms like <b className = "purple">Leetcode , GFG , CodeForces </b> etc...
+             </i>
           
             </p>
           </Col>
