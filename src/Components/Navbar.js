@@ -43,7 +43,7 @@ function NavBar() {
         <img src ={myImage} className = "my-image"/>
         <h1 className="heading-name">
                 
-                <strong className="main-name">AR</strong>
+                <h2 className="main-name">Anjanay</h2>
               </h1>
         </Navbar.Brand>
         <Navbar.Toggle
