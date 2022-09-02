@@ -8,13 +8,47 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify2.jpg";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import {
+  DiJavascript1,
+  DiReact,
+  DiNodejs,
+  DiMongodb,
+  DiPython,
+  DiGit,
+  DiJava,
+  DiAndroid,
+} from "react-icons/di";
+import {
+  SiPytorch,
+  SiFirebase,
+  SiNextdotjs,
+  SiSolidity,
+  SiTensorflow,
+    SiLinux,
+  SiVisualstudiocode,
+  SiPostman,
+  SiHeroku,
+  SiVercel,
+  SiAndroidstudio,
+  SiGooglecolab,
+  SiWeb3Dotjs,
+} from "react-icons/si";
 
+
+import {
+
+  FaJava,
+  FaReact,
+  FaGithubSquare,
+} from 'react-icons/fa';
 function Projects() {
 
   let projectArray  = [{ tiitle : "Whatsapp Clone " , description : "Created A WhatsApp Clone in Android Studio using MySQL Database in the backend with JDBC Drivers for Server Side Scripting .It Supports most the whatsapp features such as deleting a message and creating groups "}];
   return (
+    
     <Container fluid className="project-section">
       <Particle />
+     
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
