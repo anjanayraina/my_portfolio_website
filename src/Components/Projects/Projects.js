@@ -87,7 +87,7 @@ function Projects() {
               title="ChatBuck Token"
               description="Created a ERC20 token in Solidity using OpenZepplin"
               ghLink="https://github.com/abhinav-8/Chatbuck_ERC20_Token"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+             
             />
           </Col>
         </Row>
