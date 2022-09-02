@@ -28,7 +28,7 @@ function Leetcode() {
     return <div>Loading...</div>;
   } else {
 
-    console.log(items.totalSolved);
+    
  
     return (
       <Container>
