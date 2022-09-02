@@ -11,7 +11,7 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
 
-  let projectArray  = [{isBlog : false , tiitle : "Whatsapp Clone " , description : ""}];
+  let projectArray  = [{ tiitle : "Whatsapp Clone " , description : "Created A WhatsApp Clone in Android Studio using MySQL Database in the backend with JDBC Drivers for Server Side Scripting .It Supports most the whatsapp features such as deleting a message and creating groups "}];
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -26,20 +26,20 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+
+              title="Whatsapp Clone"
+              description=""
+              ghLink="https://github.com/anjanayraina/DBMS-Project"
+             
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+             
+              title="Staybook Hotels Website"
+              description="Online Website created for Staybook Group of Hotels in React.js and Next.js . It supports Everything from booking a hotel to managing the bookings for the Hotel Side , static landing pages have also been created for the hotels."
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
             />
