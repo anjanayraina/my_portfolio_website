@@ -23,9 +23,9 @@ function Leetcode() {
   }, [])
 
   if (error) {
-    return <div>Error: {error.message}</div>;
+    return <h1>Error: {error.message}</h1>;
   } else if (!isLoaded) {
-    return <div>Loading...</div>;
+    return <h1>Loading...</h1>;
   } else {
 
     
