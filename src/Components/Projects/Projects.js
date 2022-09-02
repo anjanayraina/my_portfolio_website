@@ -8,42 +8,11 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify2.jpg";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-  DiAndroid,
-} from "react-icons/di";
-import {
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiTensorflow,
-    SiLinux,
-  SiVisualstudiocode,
-  SiPostman,
-  SiHeroku,
-  SiVercel,
-  SiAndroidstudio,
-  SiGooglecolab,
-  SiWeb3Dotjs,
-} from "react-icons/si";
 
 
-import {
-
-  FaJava,
-  FaReact,
-  FaGithubSquare,
-} from 'react-icons/fa';
 function Projects() {
 
-  let projectArray  = [{ tiitle : "Whatsapp Clone " , description : "Created A WhatsApp Clone in Android Studio using MySQL Database in the backend with JDBC Drivers for Server Side Scripting .It Supports most the whatsapp features such as deleting a message and creating groups "}];
+  let projectArray  = [];
   return (
     
     <Container fluid className="project-section">
@@ -62,7 +31,7 @@ function Projects() {
               imgPath={chatify}
 
               title="Whatsapp Clone"
-              description=""
+              description="Created A WhatsApp Clone in Android Studio using MySQL Database in the backend with JDBC Drivers for Server Side Scripting. It Supports most the whatsapp features such as deleting a message and creating groups "
               ghLink="https://github.com/anjanayraina/DBMS-Project"
              
             />
@@ -71,55 +40,53 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
-             
-              title="Staybook Hotels Website"
-              description="Online Website created for Staybook Group of Hotels in React.js and Next.js . It supports Everything from booking a hotel to managing the bookings for the Hotel Side , static landing pages have also been created for the hotels."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              description ="Online Website created for Staybook Group of Hotels in React.js and Next.js . It supports Everything from booking a hotel to managing the bookings for the Hotel Side , static landing pages have also been created for the hotels."
+
+              title ="Staybook Hotels Website"
+             ghLink="https://github.com/anjanayraina/StayBookHotelsGithubLinks"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+             
+              title="Metaverse Land Dapp"
+              description="Created a fully functional Dapp using Ethereum Blockchain and 3.js, in this you can buy and sell virtual land in the metaverse.I have openzepplin in solidity to create the smart contract to mint the NFT token for the purchased land and connected the front end with smart contact using Web3.js"
+              ghLink="https://github.com/anjanayraina/metaverse-land-dapp"
+                          
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+          
+              title="Sentiment Analysis Model"
+              description="This is a deep learning model created in tensorflow using keras api that assignes a sentiement to a sentence that is inputted .The model is built using keras API and gives an accuracy of 95+ %"
+              ghLink="https://github.com/anjanayraina/Sentinment-Analysis/blob/main/NewSentimentModel.ipynb"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
+              
+              title="Snakes and Ladder"
+              description="Snakes and Ladders Game Created using JavaFX Library. "
+              ghLink="https://github.com/ashishkamathi/SankesAndLadder"
+                 />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              
+              title="ChatBuck Token"
+              description="Created a ERC20 token in Solidity using OpenZepplin"
+              ghLink="https://github.com/abhinav-8/Chatbuck_ERC20_Token"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
