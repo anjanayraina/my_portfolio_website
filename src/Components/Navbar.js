@@ -43,7 +43,6 @@ function NavBar() {
         <img src ={myImage} className = "my-image"/>
         <h1 className="heading-name">
                 
-                <h2 className="main-name">Anjanay</h2>
               </h1>
         </Navbar.Brand>
         <Navbar.Toggle
@@ -70,7 +69,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> About Me!
               </Nav.Link>
             </Nav.Item>
 
