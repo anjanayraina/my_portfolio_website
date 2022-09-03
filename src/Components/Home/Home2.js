@@ -25,7 +25,7 @@ function Home2() {
               My <span className = "purple">Introduction</span> !!
             </h1>
             <p className="home-about-body">
-              I started Programming About 2 years ago when my parents enrolled me in a Local Coding Classes and i fell in love with
+            I started Programming About two years ago when my parents enrolled me in a Local Coding Class, and I fell in love 
               with it since.....
               <br />
               <br />I am proficient in 
