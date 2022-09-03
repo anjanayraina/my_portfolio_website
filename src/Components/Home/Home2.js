@@ -25,7 +25,7 @@ function Home2() {
               My <span className = "purple">Introduction</span> !!
             </h1>
             <p className="home-about-body">
-              I started Programming About 2 years ago when my parents enrolled me in a Local Coding Tutions and i fell in love with
+              I started Programming About 2 years ago when my parents enrolled me in a Local Coding Classes and i fell in love with
               with it since.....
               <br />
               <br />I am proficient in 
@@ -45,7 +45,7 @@ function Home2() {
               <br />
               <br />
               <i>
-  Apart from that i love problem solving as well , I have solved 800+ problems on various Platforms like <b className = "purple">Leetcode , GFG , CodeForces </b> etc...
+  Apart from that i love problem solving as well , I have solved <i className = "purple">800+ problems</i> on various Platforms like <b className = "purple">Leetcode , GFG , CodeForces </b> etc...
              </i>
           
             </p>
