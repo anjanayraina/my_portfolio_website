@@ -26,7 +26,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
             I started Programming About two years ago when my parents enrolled me in a Local Coding Class, and I fell in love 
-              with it since.....
+              with it ever since.....
               <br />
               <br />I am proficient in 
               <i>
