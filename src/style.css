@@ -21,6 +21,10 @@ html {
 .black {
   color: black;
 }
+
+.red{
+  color:red !important;
+}
 .white {
   color: white !important;
 }
