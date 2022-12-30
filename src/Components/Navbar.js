@@ -112,7 +112,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/Experience"
                 onClick={() => updateExpanded(false)}
               >
                 <CgWorkAlt style={{ marginBottom: "2px" }} color = "white" /> Experience
