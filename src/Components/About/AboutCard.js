@@ -17,13 +17,13 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Gaming ( mainly Stragety Games ie- AoE2 , Chess)
+              <ImPointRight /> Gaming ( mainly Stragety Games ie- AoE2 , League of legends, Chess)
             </li>
             <li className="about-activity">
               <ImPointRight /> Watching Anime and Reading Manga ( I am a Weeb xD)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Voleyball
+              <ImPointRight /> Volleyball
             </li>
             <li className="about-activity">
               <ImPointRight /> Crypto and Blockchain 

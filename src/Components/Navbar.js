@@ -15,7 +15,9 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
-import { CgFileDocument } from "react-icons/cg";
+import {GrTechnology} from 'react-icons/gr';
+import {GiJourney , } from 'react-icons/gi';
+import { CgFileDocument , CgWorkAlt } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -96,8 +98,27 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-          
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/resume"
+                onClick={() => updateExpanded(false)}
+              >
+                <GiJourney style={{ marginBottom: "2px" }} /> My Journey
+              </Nav.Link>
+            </Nav.Item>
 
+          
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/resume"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgWorkAlt style={{ marginBottom: "2px" }} color = "white" /> Experience
+              </Nav.Link>
+            </Nav.Item>
+           
           </Nav>
         </Navbar.Collapse>
       </Container>
