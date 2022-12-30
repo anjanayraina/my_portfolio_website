@@ -21,7 +21,7 @@ import {
 
 
 import {
-
+  FaHardHat,
   FaJava,
   FaReact,
   FaGithubSquare,
@@ -37,6 +37,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiSolidity />
         <h2>Solidity</h2>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaHardHat />
+        <h2>Hardhat</h2>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiAndroid />
@@ -64,10 +68,7 @@ function Techstack() {
         <SiFirebase />
         <h2>Firebase</h2>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-        <h2>Python</h2>
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <FaGithubSquare />
         <h2>Github</h2>

@@ -101,7 +101,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/myjourney"
                 onClick={() => updateExpanded(false)}
               >
                 <GiJourney style={{ marginBottom: "2px" }} /> My Journey
