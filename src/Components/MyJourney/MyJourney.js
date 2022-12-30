@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import MyJourneyCard from './MyJourneyCard.js';
+import journey from '../../Assets/journey.webp';
 
 function MyJourney() {
   
@@ -19,24 +20,21 @@ function MyJourney() {
                 }}
               >
                 <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-                  Know about <strong className="purple">Me!!</strong>
+                  Know about <strong className="purple">My Journey!!</strong>
                 </h1>
-                {/* <MyJourneyCard /> */}
+                <MyJourneyCard />
               </Col>
               <Col
                 md={5}
                 style={{ paddingTop: "120px", paddingBottom: "50px" }}
                 className="about-img"
               >
-                {/* <img src={laptopImg} alt="about" className="img-fluid" /> */}
+                <img src={journey} alt="journey image" className="img-fluid1" />
               </Col>
             </Row>
 
     
-       
-    
 
-           
     
     
           </Container>

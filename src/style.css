@@ -765,6 +765,13 @@ button:focus {
   border-radius: 100%;
   overflow: hidden;
 }
+.img-fluid1{
+  height:15rem;
+  width:30rem;
+  margin-top:1rem;
+  border-radius: 100%;
+  overflow: hidden;
+}
 
 .rectangle-easy{
 
