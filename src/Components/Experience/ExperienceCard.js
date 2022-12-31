@@ -75,7 +75,7 @@ function ExperienceCard() {
             </li>
 
             <li className="about-activity">
-              <MdOutlineControlPoint /> <strong className='purple'>Technologies and Tools:</strong> Blockchain .
+              <MdOutlineControlPoint /> <strong className='purple'>Technologies and Tools:</strong> Blockchain , Solidity , Remix ide .
             </li>
             
           </ul>
@@ -86,8 +86,10 @@ function ExperienceCard() {
       <Card.Body className="blockquote mb-0">
         <blockquote>
        <p style={{ textAlign: "justify" }}>Right now i am working in <strong className='purple'>Blockchain security and Auditing</strong>.
-         </p>
-        </blockquote>
+         I regualrly participate in the bug bounties on <strong className='purple'>Code4rena </strong>  and am always learning more about gas saving and secuirty of smart contracts in solidity</p>
+        <br/>
+        <br/>
+        <p><strong>Apart from that i also do freelancing on the side. You can hire me on Upwork . The link is given in end of Home section</strong></p></blockquote>
       </Card.Body>
       </Card>
     </>
