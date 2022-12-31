@@ -8,8 +8,7 @@ import editor from "../../Assets/Projects/metaverse.jpg";
 import chatify from "../../Assets/Projects/chatify2.jpg";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.jpg";
-
-
+import PoCredit from '../../Assets/PoCredit.webp';
 function Projects() {
 
   let projectArray  = [];
@@ -26,6 +25,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={PoCredit}
+
+              title="Whatsapp Clone"
+              description="Created A WhatsApp Clone in Android Studio using MySQL Database in the backend with JDBC Drivers for Server Side Scripting. It Supports most the whatsapp features such as deleting a message and creating groups "
+              ghLink="https://github.com/anjanayraina/DBMS-Project"
+             
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -36,7 +45,7 @@ function Projects() {
              
             />
           </Col>
-
+         
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
