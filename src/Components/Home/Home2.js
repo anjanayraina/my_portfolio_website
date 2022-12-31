@@ -13,7 +13,7 @@ import{
   SiWhatsapp,
   SiLeetcode
 } from "react-icons/si";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn , FaMediumM } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -101,6 +101,16 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <SiWhatsapp />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://medium.com/@anjanayraina326"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaMediumM />
                 </a>
               </li>
             </ul>

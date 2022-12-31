@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import coding_work from '../../Assets/coding_work.png';
+import ExperienceCard from './ExperienceCard';
 function Experience() {
     return (
         <Container fluid className="about-section">
@@ -20,14 +22,14 @@ function Experience() {
                 <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
                    My<strong className="purple"> Experience!!</strong>
                 </h1>
-                {/* <Aboutcard /> */}
+                <ExperienceCard />
               </Col>
               <Col
                 md={5}
                 style={{ paddingTop: "120px", paddingBottom: "50px" }}
                 className="about-img"
               >
-                {/* <img src={laptopImg} alt="about" className="img-fluid" /> */}
+                <img src={coding_work} alt="about" className="img-fluid2" />
               </Col>
             </Row> 
 

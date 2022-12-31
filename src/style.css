@@ -770,8 +770,15 @@ button:focus {
   overflow: hidden;
 }
 .img-fluid1{
-  height:15rem;
+  height:20rem;
   width:30rem;
+  margin-top:3rem;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.img-fluid2{
+  height:20rem;
+  width:25rem;
   margin-top:1rem;
   border-radius: 100%;
   overflow: hidden;
