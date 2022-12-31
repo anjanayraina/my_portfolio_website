@@ -12,7 +12,8 @@ import {
 import{
   SiWhatsapp,
   SiLeetcode,
-  SiUpwork
+  SiUpwork,
+  SiGmail
 } from "react-icons/si";
 import { FaLinkedinIn , FaMediumM } from "react-icons/fa";
 
@@ -94,16 +95,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://wa.me/6284247485?text="
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <SiWhatsapp />
-                </a>
-              </li>
+     
               <li className="social-icons">
                 <a
                   href="https://medium.com/@anjanayraina326"
@@ -122,6 +114,17 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <SiUpwork />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                 
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                  onClick={() => window.location = 'mailto:anjanayraina326@gmail.com'}
+                >
+                  <SiGmail />
                 </a>
               </li>
               
