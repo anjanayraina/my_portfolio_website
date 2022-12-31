@@ -18,6 +18,12 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+.purple-header{
+
+  color: var(--imp-text-color) !important;
+  font-size:3rem !important ;
+}
+
 .black {
   color: black;
 }
