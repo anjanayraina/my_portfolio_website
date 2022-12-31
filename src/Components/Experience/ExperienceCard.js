@@ -82,6 +82,14 @@ function ExperienceCard() {
         </blockquote>
       </Card.Body>
       </Card>
+      <Card className="quote-card-view">      
+      <Card.Body className="blockquote mb-0">
+        <blockquote>
+       <p style={{ textAlign: "justify" }}>Right now i am working in <strong className='purple'>Blockchain security and Auditing</strong>.
+         </p>
+        </blockquote>
+      </Card.Body>
+      </Card>
     </>
   );
 }

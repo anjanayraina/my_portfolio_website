@@ -11,7 +11,8 @@ import {
 
 import{
   SiWhatsapp,
-  SiLeetcode
+  SiLeetcode,
+  SiUpwork
 } from "react-icons/si";
 import { FaLinkedinIn , FaMediumM } from "react-icons/fa";
 
@@ -113,6 +114,17 @@ function Home2() {
                   <FaMediumM />
                 </a>
               </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.upwork.com/freelancers/~010cea8b44a78ea307"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <SiUpwork />
+                </a>
+              </li>
+              
             </ul>
           </Col>
         </Row>
