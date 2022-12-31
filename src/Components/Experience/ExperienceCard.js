@@ -11,6 +11,7 @@ function ExperienceCard() {
             So my first work started with <strong className='purple'>Android Development</strong>. Some of the work that i did is : 
           </p> 
           <h1 className='purple-header'> 1) Kidz.fit</h1>
+          <h5>Jan 2021 - May 2021</h5>
           <ul>
             <li className="about-activity">
               <MdOutlineControlPoint /> Designed the front end for the Kidz.fit App
@@ -26,6 +27,7 @@ function ExperienceCard() {
             </li>
           </ul>
           <h1 className='purple-header'> 2) Communev</h1>
+          <h5>May 2021 - June 2021</h5>
           <ul>
             <li className="about-activity">
               <MdOutlineControlPoint /> Helped modernize the UI/UX of their App
@@ -47,7 +49,36 @@ function ExperienceCard() {
     <Card className="quote-card-view">      
       <Card.Body className="blockquote mb-0">
         <blockquote>
-        <p style={{ textAlign: "justify" }}>Tladbouasbfiuasbfjb</p>
+        <p style={{ textAlign: "justify" }}>After that i dabbled in <strong className='purple'>Machine Learning and Deep Learning</strong> a little bit as well as some more tech stacks. After all that i switched to <strong className ="purple">Blockckchain Development</strong> . Some of my work in Blockchain is Below : </p>
+        <h1 className='purple-header'> 1) Chatbuck</h1>
+        <h5>Jan 2022 - Aug 2022</h5>
+          <ul>
+ 
+            <li className="about-activity">
+              <MdOutlineControlPoint /> Designed the Blockchain backend for the Messenger Platform
+            </li>
+            <li className="about-activity">
+              <MdOutlineControlPoint /> Worked on the Front End of the Android App
+            </li>
+            <li className="about-activity">
+              <MdOutlineControlPoint />  Created a Crypto Token “Chatbuck” in Solidity
+            </li>
+            <li className="about-activity">
+              <MdOutlineControlPoint /> <strong className='purple'>Technologies and Tools:</strong> Ethereum , Solidity, Remix IDE ,JavaScript , Android Studio.
+            </li>
+          </ul>
+          <h1 className='purple-header'> 2) DLT Labs</h1>
+          <h5>Jan 2023 - Present</h5>
+          <ul>
+            <li className="about-activity">
+              <MdOutlineControlPoint /> Working on creating a Blockchain for TRAI for regulation of network providers . 
+            </li>
+
+            <li className="about-activity">
+              <MdOutlineControlPoint /> <strong className='purple'>Technologies and Tools:</strong> Blockchain .
+            </li>
+            
+          </ul>
         </blockquote>
       </Card.Body>
       </Card>

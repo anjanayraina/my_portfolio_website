@@ -4,6 +4,7 @@ import Particle from "../Particle";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 import coding_work from '../../Assets/coding_work.png';
+import chill from '../../Assets/chill.jpg';
 import ExperienceCard from './ExperienceCard';
 function Experience() {
     return (
@@ -20,7 +21,7 @@ function Experience() {
                 }}
               >
                 <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-                   My<strong className="purple"> Experience!!</strong>
+                   <h1 className="purple-header">About My Experience</h1>
                 </h1>
                 <ExperienceCard />
               </Col>
@@ -30,6 +31,7 @@ function Experience() {
                 className="about-img"
               >
                 <img src={coding_work} alt="about" className="img-fluid2" />
+                <img src={chill} alt="about" className="img-fluid2" />
               </Col>
             </Row> 
 
