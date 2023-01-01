@@ -30,8 +30,12 @@ function Projects() {
               imgPath={PoCredit}
 
               title="Whatsapp Clone"
-              description="Created A WhatsApp Clone in Android Studio using MySQL Database in the backend with JDBC Drivers for Server Side Scripting. It Supports most the whatsapp features such as deleting a message and creating groups "
-              ghLink="https://github.com/anjanayraina/DBMS-Project"
+              description="A Created a Blockchain from scratch 
+              using a consensus algorithm designed 
+              by me (PoCredit ). The working of the 
+              algorithm is given in the ReadMe on 
+              github "
+              ghLink="https://github.com/anjanayraina/ProofOfCredit"
              
             />
           </Col>
