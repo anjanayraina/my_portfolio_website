@@ -30,7 +30,7 @@ function Projects() {
             <ProjectCard
               imgPath={PoCredit}
 
-              title="Whatsapp Clone"
+              title="Proof of Credit Blockchain"
               description="A Created a Blockchain from scratch 
               using a consensus algorithm designed 
               by me (PoCredit ). The working of the 
