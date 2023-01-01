@@ -24,6 +24,12 @@ html {
   font-size:3rem !important ;
 }
 
+
+.buttons{
+  width: 10rem;
+  font-size:5rem;
+
+}
 .black {
   color: black;
 }

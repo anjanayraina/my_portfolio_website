@@ -33,7 +33,7 @@ function MintNFT() {
                 <br />
                 <br />
                 <br />
-                <Button variant="outline-light">Mint</Button>{' '}
+                <Button className = "buttons" variant="outline-light">Mint</Button>{' '}
               </Col>
               <Col
                 md={5}
