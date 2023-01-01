@@ -85,6 +85,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={emotion}
+              
+              title="ChatBuck Token"
+              description="Created a ERC20 token in Solidity using OpenZepplin"
+              ghLink="https://github.com/abhinav-8/Chatbuck_ERC20_Token"
+             
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={leaf}
           
               title="Sentiment Analysis Model"
@@ -104,16 +115,7 @@ function Projects() {
                  />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              
-              title="ChatBuck Token"
-              description="Created a ERC20 token in Solidity using OpenZepplin"
-              ghLink="https://github.com/abhinav-8/Chatbuck_ERC20_Token"
-             
-            />
-          </Col>
+
         </Row>
       </Container>
     </Container>

@@ -15,6 +15,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
+import {MdGeneratingTokens} from 'react-icons/md';
 import {GrTechnology} from 'react-icons/gr';
 import {GiJourney , } from 'react-icons/gi';
 import { CgFileDocument , CgWorkAlt } from "react-icons/cg";
@@ -116,6 +117,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgWorkAlt style={{ marginBottom: "2px" }} color = "white" /> Experience
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/MintNFT"
+                onClick={() => updateExpanded(false)}
+              >
+                <MdGeneratingTokens style={{ marginBottom: "2px" }} color = "white" /> Mint my NFT
               </Nav.Link>
             </Nav.Item>
            
