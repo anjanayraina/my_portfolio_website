@@ -50,7 +50,7 @@ function ExperienceCard() {
       <Card.Body className="blockquote mb-0">
         <blockquote>
         <p style={{ textAlign: "justify" }}>After that i dabbled in <strong className='purple'>Machine Learning and Deep Learning</strong> a little bit as well as some more tech stacks. After all that i switched to <strong className ="purple">Blockckchain Development</strong> . Some of my work in Blockchain is Below : </p>
-        <h1 className='purple-header'> 1) Chatbuck</h1>
+        <h1 className='purple-header'> 3) Chatbuck</h1>
         <h5>Jan 2022 - Aug 2022</h5>
           <ul>
  
@@ -67,7 +67,7 @@ function ExperienceCard() {
               <MdOutlineControlPoint /> <strong className='purple'>Technologies and Tools:</strong> Ethereum , Solidity, Remix IDE ,JavaScript , Android Studio.
             </li>
           </ul>
-          <h1 className='purple-header'> 2) DLT Labs</h1>
+          <h1 className='purple-header'> 4) DLT Labs</h1>
           <h5>Jan 2023 - Present</h5>
           <ul>
             <li className="about-activity">
