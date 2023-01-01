@@ -9,6 +9,7 @@ import chatify from "../../Assets/Projects/chatify2.jpg";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.jpg";
 import PoCredit from '../../Assets/PoCredit.webp';
+import SolidityDevelopment from '../../Assets/solidity-development.png';
 function Projects() {
 
   let projectArray  = [];
@@ -49,7 +50,17 @@ function Projects() {
              
             />
           </Col>
-         
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SolidityDevelopment}
+              description ="Created a Repo for storing all the tips and important solidity concepts and syntax. This also has some security tips as well as gas saving tips"
+
+              title ="Solidity Security and Gas Savings"
+             ghLink="https://github.com/anjanayraina/Soldiity-All-Repo"
+              
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
