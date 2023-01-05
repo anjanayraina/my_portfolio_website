@@ -46,7 +46,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/myjourney" element={<MyJourney />} />
           <Route path="/Experience" element={<Experience />} />
-          <Route path="/MintNFT" element={<MintNFT />} />
+          
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

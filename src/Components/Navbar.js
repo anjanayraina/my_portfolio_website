@@ -120,15 +120,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/MintNFT"
-                onClick={() => updateExpanded(false)}
-              >
-                <MdGeneratingTokens style={{ marginBottom: "2px" }} color = "white" /> Mint my NFT
-              </Nav.Link>
-            </Nav.Item>
+
            
           </Nav>
         </Navbar.Collapse>
