@@ -9,15 +9,28 @@ import {
   SiAndroidstudio,
   SiGooglecolab,
   SiWeb3Dotjs,
+  SiRemix,
 } from "react-icons/si";
 
 import {
   FaEthereum,
 
 } from "react-icons/fa";
+
+import {GiFoxHead, } 
+from "react-icons/gi";
 function Toolstack() {
   return (
+    
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <GiFoxHead />
+        <h2>Remix IDE</h2>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaEthereum />
+        <h2>Ethereum Blockchain</h2>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAndroidstudio />
         <h2>Android Studio</h2>
@@ -26,10 +39,7 @@ function Toolstack() {
         <SiVisualstudiocode />
         <h2>VS Code</h2>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaEthereum />
-        <h2>Ethereum Blockchain</h2>
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiGooglecolab />
         <h2>Google Colab</h2>

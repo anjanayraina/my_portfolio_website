@@ -17,6 +17,7 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiTensorflow,
+  SiCloudfoundry
 } from "react-icons/si";
 
 
@@ -38,9 +39,15 @@ function Techstack() {
         <SiSolidity />
         <h2>Solidity</h2>
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <FaHardHat />
         <h2>Hardhat</h2>
+      </Col>
+      
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCloudfoundry />
+        <h2>Foundry</h2>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiAndroid />
@@ -60,10 +67,7 @@ function Techstack() {
         <SiTensorflow />
         <h2>TensorFlow</h2>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-        <h2>Git</h2>
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
         <h2>Firebase</h2>
