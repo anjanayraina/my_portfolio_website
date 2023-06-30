@@ -9,6 +9,7 @@ import chatify from "../../Assets/Projects/chatify2.jpg";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.jpg";
 import PoCredit from '../../Assets/PoCredit.webp';
+import FethrX from '../../Assets/FetherX.jpeg';
 import SolidityDevelopment from '../../Assets/solidity-development.png';
 function Projects() {
 
@@ -26,6 +27,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={FethrX}
+
+              title="FethrX"
+              description="A decentralised journaling platform with the aim of privacy and freedom of
+              expression in journalism.
+              "
+              ghLink="https://github.com/0xFethr"
+             
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={PoCredit}
