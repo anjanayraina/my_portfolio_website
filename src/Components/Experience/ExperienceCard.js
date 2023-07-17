@@ -17,10 +17,16 @@ function ExperienceCard() {
             <li className="about-activity">
               <MdOutlineControlPoint /> Utilize Oracle Fusion’s functionalities to develop visually appealing and user-friendly reports that effectively convey complexinformation in a clear and concise manner. 
             </li>
+            <br/ >
+            <li className="about-activity">
+              <MdOutlineControlPoint /> 
+              Recognizing the importance of verifying the accuracy and reliability of reports, I delved into the process of developing comprehensive unit tests. Devised test scenarios to validate their functionality and validated the scenarios with test cases using samople inputs               </li>
+           <br />
             <li className="about-activity">
               <MdOutlineControlPoint />  Gather and analyze data from various sources to generate comprehensive reports, presenting key findings and recommen-dations to support strategic decision-making processes
  
             </li>
+            <br />
 
             <li className="about-activity">
               <MdOutlineControlPoint /> <strong className='purple'>Technologies and Tools:</strong> Blockchain , Solidity , Remix ide .
