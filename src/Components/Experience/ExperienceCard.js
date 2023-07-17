@@ -68,7 +68,7 @@ function ExperienceCard() {
             </li>
           </ul>
           <h1 className='purple-header'> 4) DLT Labs</h1>
-          <h5>Jan 2023 - Present</h5>
+          <h5>Jan 2023 - July 2023</h5>
           <ul>
             <li className="about-activity">
               <MdOutlineControlPoint /> Working on creating a Blockchain for TRAI for regulation of network providers . 
@@ -77,6 +77,24 @@ function ExperienceCard() {
             <li className="about-activity">
               <MdOutlineControlPoint /> <strong className='purple'>Technologies and Tools:</strong> Blockchain , Solidity , Remix ide .
             </li>
+          </ul>
+          
+          <h1 className='purple-header'> 5) Natwest Group</h1>
+          <h5>May 2023 - July 2023</h5>
+          <ul>
+            <li className="about-activity">
+              <MdOutlineControlPoint /> Utilize Oracle Fusion’s functionalities to develop visually appealing and user-friendly reports that effectively convey complexinformation in a clear and concise manner. 
+            </li>
+            <li className="about-activity">
+              <MdOutlineControlPoint />  Gather and analyze data from various sources to generate comprehensive reports, presenting key findings and recommen-dations to support strategic decision-making processes
+ 
+            </li>
+
+            <li className="about-activity">
+              <MdOutlineControlPoint /> <strong className='purple'>Technologies and Tools:</strong> Blockchain , Solidity , Remix ide .
+            </li>
+
+            
             
           </ul>
         </blockquote>
