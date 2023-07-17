@@ -37,11 +37,22 @@ function ExperienceCard() {
           <h5>Jan 2023 - July 2023</h5>
           <ul>
             <li className="about-activity">
-              <MdOutlineControlPoint /> Working on creating a Blockchain for TRAI for regulation of network providers . 
+              <MdOutlineControlPoint />  Identified the problem of mobile device theft and recognized the potential of blockchain technology to address this issue effectively.  This led us to choose this topic for our research paper.
             </li>
-
+            <br />
             <li className="about-activity">
-              <MdOutlineControlPoint /> <strong className='purple'>Technologies and Tools:</strong> Blockchain , Solidity , Remix ide .
+              <MdOutlineControlPoint />  
+              Conceptualized a solution that leverages a two-layered consortium blockchain and defined the core features, functionalities, and architecture of the proposed solution.            </li>
+<br / >
+  
+<li className="about-activity">
+              <MdOutlineControlPoint /> 
+              Simulated the proposed system on Hyperledger Fabric using Docker. This included setting up Hyperledger Fabric repo on our system as well as docker , creating the 
+              contracts , deploying them and invoking transactions to time them              
+              </li>
+              <br />
+            <li className="about-activity">
+              <MdOutlineControlPoint /> <strong className='purple'>Technologies and Tools:</strong> Hyperledger Fabric , Docker , Typescript 
             </li>
           </ul>
 
