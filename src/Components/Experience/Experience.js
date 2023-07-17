@@ -31,7 +31,7 @@ function Experience() {
                 className="about-img"
               >
                 <img src={coding_work} alt="about" className="img-fluid2" />
-                <img src={chill} alt="about" className="img-fluid2" />
+                {/* <img src={chill} alt="about" className="img-fluid2" /> */}
               </Col>
             </Row> 
 

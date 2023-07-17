@@ -11,7 +11,7 @@ function ExperienceCard() {
             So my first work started with <strong className='purple'>Android Development</strong>. Some of the work that i did is : 
           </p> 
 
-          <h1 className='purple-header'> 5) Natwest Group</h1>
+          <h1 className='purple-header'> 1) Natwest Group</h1>
           <h5>May 2023 - July 2023</h5>
           <ul>
             <li className="about-activity">
@@ -27,7 +27,7 @@ function ExperienceCard() {
             </li>
           </ul>
 
-          <h1 className='purple-header'> 4) DLT Labs</h1>
+          <h1 className='purple-header'> 2) DLT Labs</h1>
           <h5>Jan 2023 - July 2023</h5>
           <ul>
             <li className="about-activity">
@@ -57,7 +57,7 @@ function ExperienceCard() {
             </li>
           </ul>
 
-          <h1 className='purple-header'> 2) Communev</h1>
+          <h1 className='purple-header'> 4) Communev</h1>
           <h5>May 2021 - June 2021</h5>
           <ul>
             <li className="about-activity">
@@ -72,7 +72,7 @@ function ExperienceCard() {
             
           </ul>
 
-          <h1 className='purple-header'> 1) Kidz.fit</h1>
+          <h1 className='purple-header'> 5) Kidz.fit</h1>
           <h5>Jan 2021 - May 2021</h5>
           <ul>
             <li className="about-activity">
@@ -95,15 +95,7 @@ function ExperienceCard() {
       
     </Card>
     <Card className="quote-card-view">      
-      <Card.Body className="blockquote mb-0">
-        <blockquote>
-        <p style={{ textAlign: "justify" }}>After that i dabbled in <strong className='purple'>Machine Learning and Deep Learning</strong> a little bit as well as some more tech stacks. After all that i switched to <strong className ="purple">Blockckchain Development</strong> . Some of my work in Blockchain is Below : </p>
-       
-          
-          
-         
-        </blockquote>
-      </Card.Body>
+
       </Card>
       <Card className="quote-card-view">      
       <Card.Body className="blockquote mb-0">
