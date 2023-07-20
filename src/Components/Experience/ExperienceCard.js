@@ -29,7 +29,7 @@ function ExperienceCard() {
             <br />
 
             <li className="about-activity">
-              <MdOutlineControlPoint /> <strong className='purple'>Technologies and Tools:</strong> Blockchain , Solidity , Remix ide .
+              <MdOutlineControlPoint /> <strong className='purple'>Technologies and Tools:</strong> Oracle Fusion Reports  , SQL Developer , Oracle Integrations.
             </li>
           </ul>
 
