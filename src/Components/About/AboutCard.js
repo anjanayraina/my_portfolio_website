@@ -16,6 +16,9 @@ function AboutCard() {
            Some of my Hobbies are :
           </p>
           <ul>
+          <li className="about-activity">
+              <ImPointRight /> I go to a nearby gym to learn Mixed Martial Arts 
+            </li>
             <li className="about-activity">
               <ImPointRight /> Gaming ( mainly Stragety Games ie- AoE2 , League of legends, Chess)
             </li>

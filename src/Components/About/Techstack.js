@@ -17,7 +17,8 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiTensorflow,
-  SiCloudfoundry
+  SiCloudfoundry,
+  SiHyperledger
 } from "react-icons/si";
 
 
@@ -43,6 +44,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <FaHardHat />
         <h2>Hardhat</h2>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHyperledger />
+        <h2>HyperLedger Fabric</h2>
       </Col>
       
       <Col xs={4} md={2} className="tech-icons">

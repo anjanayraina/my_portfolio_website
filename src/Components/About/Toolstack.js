@@ -14,6 +14,7 @@ import {
 
 import {
   FaEthereum,
+  FaDocker,
 
 } from "react-icons/fa";
 
@@ -30,6 +31,10 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <FaEthereum />
         <h2>Ethereum Blockchain</h2>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaDocker />
+        <h2>Docker</h2>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAndroidstudio />
