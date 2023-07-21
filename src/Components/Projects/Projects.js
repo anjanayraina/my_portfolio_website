@@ -11,6 +11,7 @@ import bitsOfCode from "../../Assets/Projects/blog.jpg";
 import PoCredit from '../../Assets/PoCredit.webp';
 import FethrX from '../../Assets/FetherX.jpeg';
 import SolidityDevelopment from '../../Assets/solidity-development.png';
+import IPMarletplace from '../../Assets/IP Marketplace.png';
 function Projects() {
 
   let projectArray  = [];
@@ -32,8 +33,20 @@ function Projects() {
               imgPath={FethrX}
 
               title="FethrX"
-              description="A decentralised journaling platform with the aim of privacy and freedom of
-              expression in journalism.
+              description="A project built in Devacation’23, A decentralised journaling platform with the aim of privacy and freedom of expression in journalism.
+              "
+              ghLink="https://github.com/0xFethr"
+             
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={IPMarletplace}
+
+              title="IP Marketplace"
+              description="•	A platform where you can register, contest and lend your Intellectual Property Patents. Designed and
+              implemented smart contracts to enable users to register, contest, and lend their intellectual property securely
+              .
               "
               ghLink="https://github.com/0xFethr"
              
