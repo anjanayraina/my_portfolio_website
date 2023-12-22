@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Stranger!, I am <span className="purple">Anjanay Raina </span>
             from <span className="purple"> Delhi, India.</span>
-            <br />I am currently in my 3rd year pursuing CS at IIIT Delhi
+            <br />I am currently in my 4th year pursuing CS at IIIT Delhi
             <br />
             <br />
            Some of my Hobbies are :
