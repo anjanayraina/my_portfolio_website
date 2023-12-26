@@ -31,16 +31,16 @@ function Home2() {
               <br />
               <br />I am proficient in 
               <i>
-                <b className="purple"> Java, Solidity and Python. </b>
+                <b className="purple"> Solidity, Java and Python. </b>
               </i>
               <br />
               <br />
-              The main Technology Stacks that i am intrested in are :
+              The main Fields and Technology Stacks that i am intrested in are :
               <i>
                
-                <b className="purple">
-               {"  "} Blockchain Development,
-                 Front-End Web Development and {" "} Native Android Development.
+                <b className="purple">{"  "} Smart Contract Auditing/Development, 
+               {"  "} Software Engineering,
+                 Front-End Web Development and {" "} Zero Knowledge Proofs.
                 </b>
               </i>
               <br />
