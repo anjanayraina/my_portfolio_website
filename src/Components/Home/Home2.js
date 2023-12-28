@@ -74,16 +74,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://leetcode.com/anjanayraina/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <SiLeetcode />
-                </a>
-              </li> */}
+
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/anjanay-raina-289716192/"
@@ -105,16 +96,6 @@ function Home2() {
                   <FaMediumM />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://www.upwork.com/freelancers/~010cea8b44a78ea307"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <SiUpwork />
-                </a>
-              </li> */}
               <li className="social-icons">
                 <a
                  

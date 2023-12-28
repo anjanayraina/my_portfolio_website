@@ -11,6 +11,29 @@ function ExperienceCard() {
             So my first work started with <strong className='purple'>Android Development</strong>. Some of the work that i did is : 
           </p> 
 
+          <h1 className='purple-header'> 1) Independent Security Researcher</h1>
+          <h5>April 2023 - Present</h5>
+          <ul>
+            <li className="about-activity">
+              <MdOutlineControlPoint /> Analyzed using tools like <strong className='purple'>Slither, Solidity metrics and Foundry</strong> to identify <strong className='purple'>Medium and Low-risk vulnerabilities</strong>,
+ensure <strong className='purple'>Quality Assurance, and optimize Gas Usage</strong>.
+            </li>
+            <br/ >
+            <li className="about-activity">
+              <MdOutlineControlPoint /> 
+              Found contract vulnerabilities using <strong className='purple'>Solidity Metrics, Solidity Scan, Slither, and Foundry</strong> for simulating contract behavior. Simulated attacks on the contracts, creating a clear Proof of Concept that guides robust mitigation and boosts system security.             </li>
+           <br />
+            <li className="about-activity">
+              <MdOutlineControlPoint />  Came under the top <strong className='purple'>300</strong> in the world on the C4 weekly leaderboard.
+ 
+            </li>
+            <br />
+
+            <li className="about-activity">
+              <MdOutlineControlPoint /> <strong className='purple'>Technologies and Tools:</strong> Foundry, Slither, Soldity Visual Developer, Solidity Metrics, Hardhat
+            </li>
+          </ul>
+
           <h1 className='purple-header'> 1) Natwest Group</h1>
           <h5>May 2023 - July 2023</h5>
           <ul>
