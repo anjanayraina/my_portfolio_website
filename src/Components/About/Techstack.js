@@ -18,7 +18,9 @@ import {
   SiSolidity,
   SiTensorflow,
   SiCloudfoundry,
-  SiHyperledger
+  SiHyperledger,
+  SiGooglecloud ,
+  SiBlockchaindotcom ,
 } from "react-icons/si";
 
 
@@ -32,13 +34,15 @@ from "react-icons/fa";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaJava />
-        <h2 >Java</h2>
-      </Col>
+    
       <Col xs={4} md={2} className="tech-icons">
         <SiSolidity />
         <h2>Solidity</h2>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCloudfoundry />
+        <h2>Foundry</h2>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
@@ -49,10 +53,16 @@ function Techstack() {
         <SiHyperledger />
         <h2>HyperLedger Fabric</h2>
       </Col>
-      
       <Col xs={4} md={2} className="tech-icons">
-        <SiCloudfoundry />
-        <h2>Foundry</h2>
+        <SiBlockchaindotcom />
+        <h2>Move</h2>
+      </Col>
+       
+
+
+      <Col xs={4} md={2} className="tech-icons">
+        <FaJava />
+        <h2 >Java</h2>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiAndroid />

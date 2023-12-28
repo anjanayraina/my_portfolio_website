@@ -10,6 +10,8 @@ import {
   SiGooglecolab,
   SiWeb3Dotjs,
   SiRemix,
+  SiBlockchaindotcom,
+  SiGooglecloud,
 } from "react-icons/si";
 
 import {
@@ -25,6 +27,11 @@ function Toolstack() {
     
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
+        <SiVisualstudiocode />
+        <h2>VS Code</h2>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
         <GiFoxHead />
         <h2>Remix IDE</h2>
       </Col>
@@ -33,16 +40,20 @@ function Toolstack() {
         <h2>Ethereum Blockchain</h2>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiBlockchaindotcom />
+        <h2>Aptos Blockchain</h2>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGooglecloud />
+        <h2>Google Cloud NLP</h2>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <FaDocker />
         <h2>Docker</h2>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAndroidstudio />
         <h2>Android Studio</h2>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-        <h2>VS Code</h2>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
