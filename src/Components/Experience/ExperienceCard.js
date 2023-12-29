@@ -34,16 +34,16 @@ ensure <strong className='purple'>Quality Assurance, and optimize Gas Usage</str
             </li>
           </ul>
 
-          <h1 className='purple-header'> 1) Natwest Group</h1>
+          <h1 className='purple-header'> 2) Natwest Group</h1>
           <h5>May 2023 - July 2023</h5>
           <ul>
             <li className="about-activity">
-              <MdOutlineControlPoint /> Utilize Oracle Fusion’s functionalities to develop visually appealing and user-friendly reports that effectively convey complexinformation in a clear and concise manner. 
+              <MdOutlineControlPoint /> <strong className='purple'>Utilize Oracle Fusion’s</strong> functionalities to develop visually appealing and user-friendly reports that effectively convey complexinformation in a clear and concise manner. 
             </li>
             <br/ >
             <li className="about-activity">
               <MdOutlineControlPoint /> 
-              Recognizing the importance of verifying the accuracy and reliability of reports, I delved into the process of developing comprehensive unit tests. Devised test scenarios to validate their functionality and validated the scenarios with test cases using samople inputs               </li>
+              Recognizing the importance of verifying the accuracy and reliability of reports, I delved into the process of developing comprehensive unit tests. Devised test scenarios to validate their functionality and validated the scenarios with test cases using sample inputs on <strong className='purple'>CGL10 and CGL76 </strong>databases      </li>
            <br />
             <li className="about-activity">
               <MdOutlineControlPoint />  Gather and analyze data from various sources to generate comprehensive reports, presenting key findings and recommen-dations to support strategic decision-making processes
@@ -56,7 +56,29 @@ ensure <strong className='purple'>Quality Assurance, and optimize Gas Usage</str
             </li>
           </ul>
 
-          <h1 className='purple-header'> 2) DLT Labs</h1>
+          <h1 className='purple-header'> 3) 8ol Robotics</h1>
+          <h5>July 2023 - Dec 2023</h5>
+          <ul>
+            <li className="about-activity">
+              <MdOutlineControlPoint /> Enhanced Security Measures: Secure bootloaders have been implemented to prevent unauthorized system reprogramming, bolstering the integrity of the system. This ensures a higher level of security against potential breaches or malicious activities. 
+            </li>
+            <br/ >
+            <li className="about-activity">
+              <MdOutlineControlPoint /> 
+              Compliance Assurance: <strong className='purple'>Cube Orange's firmware</strong> signing at Level 1 ensures compliance with UAS standards, emphasizing operational integrity and adherence to regulatory requirements.   </li>
+           <br />
+            <li className="about-activity">
+              <MdOutlineControlPoint />  Optimized User Interface: Extensive UI customization in QGC and MP introduces strategic additions like Planview and Toolbar view buttons, enhancing functionality and user interaction for a more intuitive experience.
+ 
+            </li>
+            <br />
+
+            <li className="about-activity">
+              <MdOutlineControlPoint /> <strong className='purple'>Technologies and Tools:</strong> Oracle Fusion Reports  , SQL Developer , Oracle Integrations.
+            </li>
+          </ul>
+
+          <h1 className='purple-header'> 4) DLT Labs</h1>
           <h5>Jan 2023 - July 2023</h5>
           <ul>
             <li className="about-activity">
@@ -79,7 +101,7 @@ ensure <strong className='purple'>Quality Assurance, and optimize Gas Usage</str
             </li>
           </ul>
 
-          <h1 className='purple-header'> 3) Chatbuck</h1>
+          <h1 className='purple-header'> 5) Chatbuck</h1>
         <h5>Jan 2022 - Aug 2022</h5>
           <ul>
  
@@ -97,7 +119,7 @@ ensure <strong className='purple'>Quality Assurance, and optimize Gas Usage</str
             </li>
           </ul>
 
-          <h1 className='purple-header'> 4) Communev</h1>
+          <h1 className='purple-header'> 6) Communev</h1>
           <h5>May 2021 - June 2021</h5>
           <ul>
             <li className="about-activity">
@@ -112,7 +134,7 @@ ensure <strong className='purple'>Quality Assurance, and optimize Gas Usage</str
             
           </ul>
 
-          <h1 className='purple-header'> 5) Kidz.fit</h1>
+          <h1 className='purple-header'> 7) Kidz.fit</h1>
           <h5>Jan 2021 - May 2021</h5>
           <ul>
             <li className="about-activity">
