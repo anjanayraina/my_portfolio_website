@@ -10,6 +10,7 @@ import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.jpg";
 import PoCredit from '../../Assets/PoCredit.webp';
 import FethrX from '../../Assets/FetherX.jpeg';
+import PerpetualVault from '../../Assets/PerpetualVault.png';
 import SolidityDevelopment from '../../Assets/solidity-development.png';
 import IPMarletplace from '../../Assets/IP Marketplace.png';
 function Projects() {
@@ -28,6 +29,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={PerpetualVault}
+
+              title="Perpetual Vault"
+              description="A protocol to create Perpetual Positions implementing ERC4626-compliant smart contracts for liquidity, scaling positions, and collateral management
+              "
+              ghLink="https://github.com/anjanayraina/PerpetualVault"
+             
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={FethrX}

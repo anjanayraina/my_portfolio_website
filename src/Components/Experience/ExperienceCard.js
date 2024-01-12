@@ -8,7 +8,6 @@ function ExperienceCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            So my first work started with <strong className='purple'>Android Development</strong>. Some of the work that i did is : 
           </p> 
 
           <h1 className='purple-header'> 1) Independent Security Researcher</h1>
