@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/myImage.png"
+import { Container, Row, Col, Button } from "react-bootstrap";
+import myImg from "../../Assets/myImage.png";
 import Tilt from "react-parallax-tilt";
 
 import {
@@ -9,13 +9,13 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 
-import{
+import {
   SiWhatsapp,
   SiLeetcode,
   SiUpwork,
-  SiGmail
+  SiGmail,
 } from "react-icons/si";
-import { FaLinkedinIn , FaMediumM } from "react-icons/fa";
+import { FaLinkedinIn, FaMediumM } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -24,31 +24,31 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              My <span className = "purple">Introduction</span> !!
+              My <span className="purple">Introduction</span>
             </h1>
             <p className="home-about-body">
-            Hey there Stranger! I am <span className = "purple">Anjanay</span> or you might know me by <span className = "purple">Stryder</span>
+              Hello! I’m <span className="purple">Anjanay</span> (also known as <span className="purple">Stryder</span>), a dedicated 
+              <span className="purple"> Smart Contract Auditor</span> and 
+              <span className="purple"> Blockchain Developer</span>.
               <br />
-              <br />I am proficient in 
+              <br />I am proficient in:
               <i>
-                <b className="purple"> Solidity, Java and Python. </b>
+                <b className="purple"> Solidity, Java, and Python. </b>
               </i>
               <br />
               <br />
-              The main Fields and Technology Stacks that i am intrested in are :
+              My core areas of expertise include:
               <i>
-               
-                <b className="purple">{"  "} Smart Contract Auditing/Development, 
-               {"  "} Software Engineering,
-                 Front-End Web Development and {" "} Zero Knowledge Proofs.
+                <b className="purple">
+                  {" "}
+                  Smart Contract Auditing & Development, Software Engineering for Scalable Web3 Solutions, Front-End Web Development, and Zero-Knowledge Proofs.
                 </b>
               </i>
               <br />
               <br />
-              <i>
-  Apart from that i love problem solving as well , I have solved <i className = "purple">800+ problems</i> on various Platforms like <b className = "purple">Leetcode , GFG , CodeForces </b> etc...
-             </i>
-          
+              I am also passionate about problem-solving, having solved 
+              <i className="purple"> 800+ coding challenges</i> across various platforms, including 
+              <b className="purple"> Leetcode, GFG, and CodeForces</b>. These experiences have honed my analytical skills and deepened my ability to write secure and efficient code.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -57,11 +57,41 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+
+        {/* Call to Action Section */}
+        <Row>
+          <Col md={12} className="home-about-cta text-center">
+            <h2 style={{ fontSize: "2.2em", marginTop: "40px" }}>
+              <span className="purple">Looking for a Blockchain Expert?</span>
+            </h2>
+            <p style={{ fontSize: "1.2em", marginTop: "20px", color: "white" }}>
+  I am available for <span className="purple">freelance projects</span> as a <span className="purple">Smart Contract Auditor</span> and <span className="purple">Blockchain Developer</span>. Let’s work together to build secure, efficient, and innovative Web3 solutions.
+</p>   
+            <Button
+              href="mailto:anjanayraina326@gmail.com"
+              target="_blank"
+              className="cta-button"
+              style={{
+                marginTop: "20px",
+                fontSize: "1.2em",
+                padding: "10px 20px",
+                backgroundColor: "#6C63FF",
+                borderColor: "#6C63FF",
+                color: "#fff",
+                borderRadius: "5px",
+              }}
+            >
+              Hire Me
+            </Button>
+          </Col>
+        </Row>
+
+        {/* Social Links */}
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">connect</span> with me:
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -69,7 +99,7 @@ function Home2() {
                   href="https://github.com/anjanayraina"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -80,12 +110,12 @@ function Home2() {
                   href="https://www.linkedin.com/in/anjanay-raina-289716192/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
-     
+
               <li className="social-icons">
                 <a
                   href="https://medium.com/@anjanayraina326"
@@ -98,22 +128,20 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                 
+                  href="mailto:anjanayraina326@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
-                  onClick={() => window.location = 'mailto:anjanayraina326@gmail.com'}
                 >
                   <SiGmail />
                 </a>
               </li>
-              
             </ul>
           </Col>
         </Row>
       </Container>
-
     </Container>
   );
 }
+
 export default Home2;
