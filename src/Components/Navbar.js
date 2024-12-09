@@ -120,6 +120,17 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+  <Nav.Link
+    as={Link}
+    to="/MyAudits"
+    onClick={() => updateExpanded(false)}
+  >
+    <CgFileDocument style={{ marginBottom: "2px" }} /> My Audits
+  </Nav.Link>
+</Nav.Item>
+
+
 
            
           </Nav>

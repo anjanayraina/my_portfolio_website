@@ -8,6 +8,8 @@ import Footer from "./Components/Footer";
 import Resume from "./Components/Resume/ResumeNew";
 import MyJourney from "./Components/MyJourney/MyJourney.js";
 import Experience from "./Components/Experience/Experience.js";
+import MyAudits from "./Components/MyAudits.js";
+
 import MintNFT from "./MintNFT/MintNFT.js";
 import pdf from "./Assets/AnjanayRainaResume.pdf";
 import {
@@ -46,7 +48,8 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/myjourney" element={<MyJourney />} />
           <Route path="/Experience" element={<Experience />} />
-          
+          <Route path="/MyAudits" element={<MyAudits />} />
+    
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

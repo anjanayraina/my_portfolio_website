@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  AiOutlineTwitter, // Imported Twitter (X) icon
   AiFillInstagram,
 } from "react-icons/ai";
 
@@ -13,7 +13,6 @@ import {
   SiWhatsapp,
   SiLeetcode,
   SiUpwork,
-  SiGmail,
 } from "react-icons/si";
 import { FaLinkedinIn, FaMediumM } from "react-icons/fa";
 
@@ -65,8 +64,8 @@ function Home2() {
               <span className="purple">Looking for a Blockchain Expert?</span>
             </h2>
             <p style={{ fontSize: "1.2em", marginTop: "20px", color: "white" }}>
-  I am available for <span className="purple">freelance projects</span> as a <span className="purple">Smart Contract Auditor</span> and <span className="purple">Blockchain Developer</span>. Let’s work together to build secure, efficient, and innovative Web3 solutions.
-</p>   
+              I am available for <span className="purple">freelance projects</span> as a <span className="purple">Smart Contract Auditor</span> and <span className="purple">Blockchain Developer</span>. Let’s work together to build secure, efficient, and innovative Web3 solutions.
+            </p>
             <Button
               href="mailto:anjanayraina326@gmail.com"
               target="_blank"
@@ -126,14 +125,16 @@ function Home2() {
                   <FaMediumM />
                 </a>
               </li>
+
+              {/* Updated X (formerly Twitter) Icon */}
               <li className="social-icons">
                 <a
-                  href="mailto:anjanayraina326@gmail.com"
+                  href="https://x.com/RainaAnjan69745"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <SiGmail />
+                  <AiOutlineTwitter />
                 </a>
               </li>
             </ul>
