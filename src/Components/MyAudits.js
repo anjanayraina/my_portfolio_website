@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import Particle from "./Particle";
 
 function MyAudits() {
   const [pdfs, setPdfs] = useState([]);
 
-  // Fetch the list of PDFs from the "Audits" folder
+  // Fetch PDFs dynamically from the "Audits" folder
   useEffect(() => {
     const fetchPdfs = async () => {
       const context = require.context("../Assets/Audits", false, /\.pdf$/);
@@ -17,16 +18,17 @@ function MyAudits() {
 
   return (
     <Container fluid className="my-audits-section">
+      <Particle /> {/* Adds the starry background */}
       <Container>
-        <h1 className="purple" style={{ textAlign: "center", marginBottom: "20px" }}>
-          My <span className="purple">Audits</span>
+        <h1 className="project-heading">
+          My <strong className="purple">Audit Reports</strong>
         </h1>
-        <p style={{ textAlign: "center", marginBottom: "30px" }}>
-          Below are the audit reports I have completed for various projects. Click to view or download.
+        <p style={{ color: "white" }}>
+          Below are the audit reports I have completed for various projects.
         </p>
-        <Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {pdfs.map((pdf, index) => (
-            <Col md={4} key={index} className="mb-4">
+            <Col md={4} key={index} className="project-card">
               <Card>
                 <Card.Body>
                   <embed
@@ -36,7 +38,7 @@ function MyAudits() {
                     height="300px"
                   />
                   <Button
-                    variant="secondary"
+                    variant="primary"
                     href={pdf}
                     target="_blank"
                     className="mt-3 w-100"
