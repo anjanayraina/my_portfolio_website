@@ -13,6 +13,7 @@ import FethrX from '../../Assets/FetherX.jpeg';
 import PerpetualVault from '../../Assets/PerpetualVault.png';
 import SolidityDevelopment from '../../Assets/solidity-development.png';
 import IPMarletplace from '../../Assets/IP Marketplace.png';
+import VertexSwap from '../../Assets/VertexSwap.jpeg'
 function Projects() {
 
   let projectArray  = [];
@@ -29,6 +30,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={VertexSwap}
+
+              title="Vertex Swap"
+              description="Developed a decentralized exchange with zero fees and sandwich attack protection, ensuring secure transactions.
+              "
+              ghLink="https://github.com/anjanayraina/VertexSwap"
+             
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={PerpetualVault}

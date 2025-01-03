@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.my-audits-section {
+  color: #ffffff; /* Default white text for the section */
+}
+
+.project-heading {
+  color: #ffffff; /* White for headings */
+}
+
+.my-audits-section p {
+  color: #b0b0b0; /* Light gray for general text */
+}
+
+.project-card p {
+  color: #ffffff; /* White for descriptions */
+}
+
+.project-card button {
+  background-color: #6C63FF;
+  border-color: #6C63FF;
+  color: #ffffff;
+}
+
+.project-card button:hover {
+  background-color: #5848c2; /* Slightly darker purple for hover effect */
+}

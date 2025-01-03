@@ -45,10 +45,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
+          <Route path="/MyAudits" element={<MyAudits />} />
+
           <Route path="/resume" element={<Resume />} />
           <Route path="/myjourney" element={<MyJourney />} />
           <Route path="/Experience" element={<Experience />} />
-          <Route path="/MyAudits" element={<MyAudits />} />
     
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>

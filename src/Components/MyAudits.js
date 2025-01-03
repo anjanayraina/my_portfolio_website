@@ -5,8 +5,8 @@ import Particle from "./Particle";
 function MyAudits() {
   const [pdfs, setPdfs] = useState([]);
 
-  // Fetch PDFs dynamically from the "Audits" folder
   useEffect(() => {
+    // Fetch PDFs dynamically from the "Audits" folder
     const fetchPdfs = async () => {
       const context = require.context("../Assets/Audits", false, /\.pdf$/);
       const pdfPaths = context.keys().map(context);
@@ -16,14 +16,29 @@ function MyAudits() {
     fetchPdfs();
   }, []);
 
+  // Predefined descriptions for each report
+  const descriptions = [
+    "WyvernX Security Review.",
+    "Zus Security Review",
+    "Moonvera Solutions Security Review",
+    "DAV Token Security Review",
+    "EmpowerCoin Security Review",
+    "Kendu NFT Marketplace Security Review",
+    "Kendu NFT Marketplace Mitigation Report",
+    "Zus NFT Storage Security Review",
+    "QIE Domain Security Review",
+
+
+  ];
+
   return (
     <Container fluid className="my-audits-section">
       <Particle /> {/* Adds the starry background */}
       <Container>
-        <h1 className="project-heading">
+        <h1 className="project-heading" style={{ color: "#ffffff" }}>
           My <strong className="purple">Audit Reports</strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p style={{ color: "#b0b0b0" }}>
           Below are the audit reports I have completed for various projects.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
@@ -42,11 +57,27 @@ function MyAudits() {
                     href={pdf}
                     target="_blank"
                     className="mt-3 w-100"
+                    style={{
+                      backgroundColor: "#6C63FF",
+                      borderColor: "#6C63FF",
+                      color: "#ffffff",
+                    }}
                   >
                     View Full Report
                   </Button>
                 </Card.Body>
               </Card>
+              {/* Add descriptive text as a separate element */}
+              <p
+                style={{
+                  marginTop: "10px",
+                  fontSize: "0.9rem",
+                  color: "#b0b0b0",
+                  textAlign: "center",
+                }}
+              >
+                {descriptions[index] || "Detailed findings and recommendations for this audit."}
+              </p>
             </Col>
           ))}
         </Row>
